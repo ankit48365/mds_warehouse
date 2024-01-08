@@ -1,0 +1,3 @@
+name: 'pizza_dbt_project'
+vars:
+    my_name: "Ankz"

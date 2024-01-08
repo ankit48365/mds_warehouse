@@ -1,0 +1,13 @@
+# Astro Runtime includes the following pre-installed providers packages: https://docs.astronomer.io/astro/runtime-image-architecture#provider-packages
+
+astronomer-cosmos
+apache-airflow-providers-postgres
+apache-airflow-providers-airbyte
+# this as suggested by the blog, did not work , below was the conflict , so i am chaning cosmos and apacheairflowpostgres too no version, so maybe it can pickbyitself
+# 3.698 The conflict is caused by:
+# 3.698     astronomer-cosmos 1.0.4 depends on pydantic<2.0.0 and >=1.10.0
+# 3.698     apache-airflow 2.8.0+astro.1 depends on pydantic>=2.3.0
+
+
+# astronomer-cosmos==1.0.4
+# apache-airflow-providers-postgres==5.6.0
