@@ -1,6 +1,6 @@
 # Astro Runtime includes the following pre-installed providers packages: https://docs.astronomer.io/astro/runtime-image-architecture#provider-packages
 
-astronomer-cosmos
+astronomer-cosmos[dbt.postgres]
 apache-airflow-providers-postgres
 apache-airflow-providers-airbyte
 # this as suggested by the blog, did not work , below was the conflict , so i am chaning cosmos and apacheairflowpostgres too no version, so maybe it can pickbyitself
